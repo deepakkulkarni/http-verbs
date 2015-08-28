@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package uk.gov.hmrc.play.http.filter
+package uk.gov.hmrc.play.http.logging.filters
 
 import org.scalatest.concurrent.Eventually
 import org.scalatest.{Matchers, OptionValues, WordSpecLike}
@@ -23,7 +23,7 @@ import play.api.mvc._
 import play.api.test.{DefaultAwaitTimeout, FutureAwaits}
 import play.api.{LoggerLike, Routes}
 import uk.gov.hmrc.play.http.connector.DummyRequestHeader
-import uk.gov.hmrc.play.http.logging.filters.LoggingFilter
+import uk.gov.hmrc.play.http.filter.FakeLogger
 
 import scala.concurrent.Future
 
